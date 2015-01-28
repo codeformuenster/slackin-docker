@@ -1,9 +1,5 @@
 #!/bin/bash
-echo "a"
-echo $SLACK_ORG
-env
-# echo "***** Installing slackin npm module" && \
-# npm install -g slackin && \
-# echo "***** Installed slacking npm module" && \
-# echo "***** Starting slackin" && \
-# exec slackin -t $SLACK_TOKEN -o $SLACK_ORG
+echo "***** Installing slackin npm modules"
+npm install -g slackin
+echo "***** Starting slackin"
+exec slackin -t $SLACK_TOKEN -o $SLACK_ORG
