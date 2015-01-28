@@ -1,0 +1,7 @@
+slackin:
+  build: .
+  environment:
+    SLACK_TOKEN: xxxx-xxxx-xxxx
+    SLACK_ORG: c4m
+  ports:
+    - "127.0.0.1:80:80"
