@@ -1,6 +1,6 @@
 # Slackin Dockerfile
 
-This will build and run [Slackin](https://github.com/rauchg/slackin) in Docker based on the [dockerfile/nodejs] Dockerfile.
+This will build and run [Slackin](https://github.com/rauchg/slackin) in Docker based on the [dockerfile/nodejs](https://registry.hub.docker.com/u/dockerfile/nodejs/) Dockerfile.
 
 ## Run
 
@@ -21,4 +21,4 @@ If you are seeing errors similar to "invalid response from Slack", then your API
 
 ## License
 
-MIT
+MIT License
