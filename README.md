@@ -2,9 +2,13 @@
 
 This will build and run [Slackin](https://github.com/rauchg/slackin) in Docker based on the [dockerfile/nodejs](https://registry.hub.docker.com/u/dockerfile/nodejs/) Dockerfile.
 
-## Run
+## Run from Dockerhub
 
-Put your Slack API key and organization name (the subdomain part in your Slack URL) in the `fig.yml`, then run:
+`docker run --name myslackin -e SLACKIN_ORG=myOrg -e SLACKIN_TORKEN=mySlackinWebApiToken -d chk1/slackin`
+
+## Run from Github
+
+Clone this repo, then put your Slack API key and organization name (the subdomain part in your Slack URL) in the `fig.yml`, then run:
 
 `fig up slackin`
 
