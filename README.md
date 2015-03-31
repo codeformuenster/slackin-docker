@@ -8,9 +8,9 @@ This will build and run [Slackin](https://github.com/rauchg/slackin) in Docker b
 
 ## Run from Github
 
-Clone this repo, then put your Slack API key and organization name (the subdomain part in your Slack URL) in the `fig.yml`, then run:
+Clone [this repo](https://github.com/codeformuenster/slackin-docker), then put your Slack API key and organization name (the subdomain part in your Slack URL) in the `docker-compose.yml`, then run:
 
-`fig up slackin`
+`docker-compose up`
 
 It will take a minute to build, then you should see output like the following:
 
