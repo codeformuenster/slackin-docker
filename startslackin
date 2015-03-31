@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "***** Starting slackin"
-exec slackin $SLACK_TOKEN $SLACK_ORG
+exec slackin $SLACK_ORG $SLACK_TOKEN

@@ -1,6 +1,6 @@
 # Slackin Dockerfile
 
-This will build and run [Slackin](https://github.com/rauchg/slackin) in Docker based on the [dockerfile/nodejs](https://registry.hub.docker.com/u/dockerfile/nodejs/) Dockerfile.
+This will build and run [Slackin](https://github.com/rauchg/slackin) in a Docker container.
 
 ## Run from Dockerhub
 
@@ -21,7 +21,7 @@ slackin_1 | Wed Jan 28 2015 20:33:14 GMT+0000 (UTC) – fetching
 
 You should then be able to reach the webinterface at [localhost:3000](http://localhost:3000).
 
-If you are seeing errors similar to "invalid response from Slack", then your API key or organization name is wrong.
+If you are seeing errors similar to "invalid response from Slack" (along with some debugging information like `at SlackData.onres (/usr/local/lib/node_modules/slackin/node/slack.js:87:22) ... at _stream_readable.js:944:16`), then your API key and/or organization name are wrong.
 
 ## License
 
