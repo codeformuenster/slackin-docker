@@ -4,7 +4,7 @@ This will build and run [Slackin](https://github.com/rauchg/slackin) in a Docker
 
 ## Run from Dockerhub
 
-`docker run --name myslackin -e SLACKIN_ORG=myOrg -e SLACKIN_TORKEN=mySlackinWebApiToken -d chk1/slackin`
+`docker run --name myslackin -e SLACK_ORG=myOrg -e SLACK_TOKEN=mySlackinWebApiToken -d chk1/slackin`
 
 ## Run from Github
 
