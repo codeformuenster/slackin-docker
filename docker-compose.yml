@@ -1,7 +1,7 @@
-slackin:
-  build: .
-  environment:
-    SLACK_TOKEN: xxxx-xxxxxxxxxx-xxxxxxxxxx-xxxxxxxxxx-xxxxxx
-    SLACK_ORG: yoursubdomain
-  ports:
-    - "3000:3000"
+version: "2"
+services:
+  slackin:
+    build: .
+    environment:
+      SLACK_TOKEN: xxxx-xxxxxxxxxx-xxxxxxxxxx-xxxxxxxxxx-xxxxxx
+      SLACK_ORG: yoursubdomain
