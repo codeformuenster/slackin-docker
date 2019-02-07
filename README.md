@@ -5,7 +5,7 @@ This will build and run [Slackin](https://github.com/rauchg/slackin) in a Docker
 ## You will need
 
 * Your Slack organisation name (the subdomain part in your Slack URL)
-* An API token for your organisation, generate one at https://api.slack.com/web
+* An API token for your organisation, generate one at https://api.slack.com/custom-integrations/legacy-tokens
 
 ## Run from Dockerhub
 
