@@ -1,5 +1,11 @@
 # Slackin Dockerfile
 
+## Deprecation notice
+
+This repository is no longer maintained. Consider switching to another fork, for example [slackin-extended](https://github.com/emedvedev/slackin-extended).
+
+## About
+
 This will build and run [Slackin](https://github.com/rauchg/slackin) in a Docker container.
 
 ## You will need
